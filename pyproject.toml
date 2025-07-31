@@ -1,0 +1,23 @@
+[project]
+name = "taxi-orders-prediction"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11, <3.13"
+dependencies = [
+    "catboost==1.2.8",
+    "jupyter==1.1.1",
+    "matplotlib==3.10.3",
+    "notebook==7.4.4",
+    "numpy==2.2.0",
+    "optuna==4.4.0",
+    "optuna-integration==4.4.0",
+    "pandas==2.3.0",
+    "phik==0.12.4",
+    "psycopg2==2.9.10",
+    "scikit-learn==1.7.0",
+    "scipy==1.15.2",
+    "seaborn==0.13.2",
+    "shap==0.48.0",
+    "torch==2.7.1",
+]
